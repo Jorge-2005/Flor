@@ -1,0 +1,33 @@
+canvas {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    background-color: #10091a;
+    color: #f2c2ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px #bd55ff;
+}
+
+h1 {
+    animation: brillo 3s ease-in-out infinite alternate;
+}
+
+@keyframes brillo {
+    from {
+        text-shadow: 0 0 8px #bd55ff;
+    }
+    to {
+        text-shadow: 0 0 25px #e6b3ff, 0 0 40px #bd55ff;
+    }
+}
